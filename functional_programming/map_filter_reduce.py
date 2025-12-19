@@ -1,3 +1,9 @@
+# basic lambda usage
+value = 5
+func = lambda x: 2*x
+print(f"{value = }")
+print(f"{func(value) = }\n")
+
 # map filter and reduce
 # these are used to efficiently apply functions 
 # to arrays / lists
